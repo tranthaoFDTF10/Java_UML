@@ -58,6 +58,7 @@ public class HoaDon {
 		System.out.print("\nNhap so luong chi tiet hang hoa: ");
 		SoLuongCT = sc.nextInt();
 		sc.nextLine();
+		c[] = new ChiTietHH[SoLuongCT];
 		for(int i=0;i<SoLuongCT;i++) {
 			System.out.print("Nhap thong tin hang hoa thu "+(i+1)+": ");
 			c[i] = new ChiTietHH();
